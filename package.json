@@ -1,0 +1,20 @@
+{
+  "name": "tatum-sdk",
+  "version": "0.0.2",
+  "description": "Too many confusing tatum sdks",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "prepublish": "rm -rf ./src && tsc"
+  },
+  "license": "MIT",
+  "keywords": [
+    "Tatum",
+    "SDK",
+    "Blockchain" 
+  ],
+  "repository": {
+    "url": "https://github.com/igmrrf/tatum-sdk"
+  },
+  "author": "igmrrf"
+}
